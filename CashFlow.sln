@@ -3,8 +3,62 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35707.178 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9C330A28-FAB9-417A-810C-28BD9B16A5CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{674AEAFB-9B5F-4E15-BA58-85163C56FE09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashFlow.Api", "src\CashFlow.Api\CashFlow.Api.csproj", "{62AEC5DF-B0D2-4969-9BE4-BFA9245C2D66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashFlow.Application", "src\CashFlow.Application\CashFlow.Application.csproj", "{2D0A830C-D00E-4102-90CA-6FB7F9347D2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashFlow.Communication", "src\CashFlow.Communication\CashFlow.Communication.csproj", "{A02B5ACB-4881-4709-85B1-F06ADEC19BE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashFlow.Exception", "src\CashFlow.Exception\CashFlow.Exception.csproj", "{3FA7D51D-806D-4D8A-AA4D-C063B27EA7AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashFlow.Domain", "src\CashFlow.Domain\CashFlow.Domain.csproj", "{B5F88133-D4F8-46D5-A8AF-BDB461008F6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashFlow.Infrastructure", "src\CashFlow.Infrastructure\CashFlow.Infrastructure.csproj", "{C9848C95-8D85-4EBB-9936-AEA5E9A5BF0F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62AEC5DF-B0D2-4969-9BE4-BFA9245C2D66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62AEC5DF-B0D2-4969-9BE4-BFA9245C2D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62AEC5DF-B0D2-4969-9BE4-BFA9245C2D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62AEC5DF-B0D2-4969-9BE4-BFA9245C2D66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D0A830C-D00E-4102-90CA-6FB7F9347D2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D0A830C-D00E-4102-90CA-6FB7F9347D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D0A830C-D00E-4102-90CA-6FB7F9347D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D0A830C-D00E-4102-90CA-6FB7F9347D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A02B5ACB-4881-4709-85B1-F06ADEC19BE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A02B5ACB-4881-4709-85B1-F06ADEC19BE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A02B5ACB-4881-4709-85B1-F06ADEC19BE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A02B5ACB-4881-4709-85B1-F06ADEC19BE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FA7D51D-806D-4D8A-AA4D-C063B27EA7AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FA7D51D-806D-4D8A-AA4D-C063B27EA7AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FA7D51D-806D-4D8A-AA4D-C063B27EA7AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FA7D51D-806D-4D8A-AA4D-C063B27EA7AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5F88133-D4F8-46D5-A8AF-BDB461008F6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5F88133-D4F8-46D5-A8AF-BDB461008F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5F88133-D4F8-46D5-A8AF-BDB461008F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5F88133-D4F8-46D5-A8AF-BDB461008F6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9848C95-8D85-4EBB-9936-AEA5E9A5BF0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9848C95-8D85-4EBB-9936-AEA5E9A5BF0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9848C95-8D85-4EBB-9936-AEA5E9A5BF0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9848C95-8D85-4EBB-9936-AEA5E9A5BF0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{62AEC5DF-B0D2-4969-9BE4-BFA9245C2D66} = {9C330A28-FAB9-417A-810C-28BD9B16A5CC}
+		{2D0A830C-D00E-4102-90CA-6FB7F9347D2E} = {9C330A28-FAB9-417A-810C-28BD9B16A5CC}
+		{A02B5ACB-4881-4709-85B1-F06ADEC19BE3} = {9C330A28-FAB9-417A-810C-28BD9B16A5CC}
+		{3FA7D51D-806D-4D8A-AA4D-C063B27EA7AF} = {9C330A28-FAB9-417A-810C-28BD9B16A5CC}
+		{B5F88133-D4F8-46D5-A8AF-BDB461008F6C} = {9C330A28-FAB9-417A-810C-28BD9B16A5CC}
+		{C9848C95-8D85-4EBB-9936-AEA5E9A5BF0F} = {9C330A28-FAB9-417A-810C-28BD9B16A5CC}
 	EndGlobalSection
 EndGlobal
